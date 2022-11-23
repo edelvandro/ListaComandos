@@ -1,1 +1,1 @@
-Repositório referente aos comandos vistos no estudo no linux e git para futuras consultas.
+Repositório referente aos comandos vistos no estudo no Linux e Git para futuras consultas.
