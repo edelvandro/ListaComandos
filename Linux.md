@@ -1,4 +1,5 @@
 # COMANDOS DE ARQUIVOS
+___
 
 - **ls** - listagem de diretório
 - **ls -la**  - listagem formatada   de diretórios com arquivos ocultos
@@ -22,7 +23,6 @@
 - **tail *arquivo*** - últimas 10 linhas de *arquivo*
 - **tail -n** - mostra um número determinados de linhas
 - **tail -f *arquivo*** - conteúdo do *arquivo* conforme ele cresce, começando com as 10 últimas
-- **whoami** - mostra o usuário atual
 - **echo** - imprime o que se escreve
 - **history** - mostra os últimos 100 comando 
 - **passwd** - atualiza a senha
@@ -38,6 +38,7 @@
 
 
 # Gerenciamento de Processos
+___
 
 - **ps** - mostra seus processos  ativos
 - **top - m** - mostra todos os processos rodando
@@ -47,7 +48,9 @@
 - **fg** - traz o trabalho mais recente para *foreground*
 - **fg n** -traz o trabalho *n* para foreground 
 
+
 # Permissões de Arquivo
+___
 
 - **chmod octal *arquivo*** - altera as permissões do arquivo paraoctal, separadamente para usuário, grupo e mundo, adicionando:
     - 4 - read (r)
@@ -62,14 +65,41 @@ Para mais opções, **man chmod**
 
 # SSH
 
+___
+
 **ssh *user@host*** - conecta no *host* como user
 **ssh -p *porta* user@host** - conecta no *host* na *porta* como user
 **ssh-copy-id *user@host*** - adiciona sua chave ao host para *user* para permitir login com chave (passwordless)
 
 
 # Pesquisa
+___
+
+- grep padrão *arquivos* - pesquisa pelo *padrão* nos arquivos
+- grep -r padrão diretório - pesquisa recursivamente pelo padrão no diretório
+- comando | grep padrão - pesquisa pelo padrão na saída do comando
+- locate arquivo - pesquisa todas as instâncias de arquivo
 
 # Informações do Sistema
+
+___
+
+- **date** - mostra a data/hora atuais
+- **cal** - mostra calendário mensal
+- **uptime** - tempo que o sistema etá aberto
+- **w** - mostra quem etá *online*
+- **whoami** - mostra o usuário atual
+- **finger *user*** - informações sobre *user*
+- **uname -a** - mostra informações sobre o Kernel
+- **cat /proc/cpinfo** - informações da cpu
+- **cat /proc/meminfo** - informações da memória
+- **man *comando*** - mostra o manual para o *comando*
+- **df** - mostra o uso so disco
+- **du** - mostra espaço em uso no diretório
+- **free** - mostra uso da memóriae aréa de *swap*
+- **whereis app** - possível localização de *app*
+- **which *app*** - mostra qual *app* será executada por padrão
+
 
 # Compressão
 
