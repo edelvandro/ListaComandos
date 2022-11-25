@@ -7,6 +7,7 @@
 - **pwd** - mostra o diretório atual
 - **mkdir *dir*** - cria o diretório *dir*
 - **rm *arquivo*** - exclui *arquivo*
+- **rm*** - (Cuidado) exclui todos os diretórios
 - **rm -r *dir*** - exclui o diretório *dir*
 - **rm -f *arquivo*** - força remoção de *arquivo*
 - **rm -rf *dir*** - força a remoçaõ do diretório *dir*
@@ -38,8 +39,26 @@
 
 # Gerenciamento de Processos
 
+- **ps** - mostra seus processos  ativos
+- **top - m** - mostra todos os processos rodando
+- **kill *pid*** - mata o processo com id *pid*
+- **killall - *proc*** - mata todos os processos chamados *proc**
+- **bg** - lista todos os trabalhos parados ou em *background*; prossegue um trabalho parado em background
+- **fg** - traz o trabalho mais recente para *foreground*
+- **fg n** -traz o trabalho *n* para foreground 
 
 # Permissões de Arquivo
+
+- **chmod octal *arquivo*** - altera as permissões do arquivo paraoctal, separadamente para usuário, grupo e mundo, adicionando:
+    - 4 - read (r)
+    - 2 - write(w)
+    - 1 - execute(x)
+
+Exemplos:
+- **chmod 777** - read, write, execute para todos
+- **chmod 755** - rwx para proprietário, rx para grupo e mundo
+
+Para mais opções, **man chmod**
 
 # SSH
 
