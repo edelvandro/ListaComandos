@@ -10,8 +10,8 @@ ___
 - **rm *arquivo*** - exclui *arquivo*
 - **rm*** - exclui todos os diretórios ***(Cuidado)***
 - **rm -r *dir*** - exclui o diretório *dir*
-- **rm -f *arquivo*** - força remoção de *arquivo*
-- **rm -rf *dir*** - força a remoçaõ do diretório *dir*
+- **rm -f *arquivo*** - força remoção de *arquivo* ***(Cuidado)***
+- **rm -rf *dir*** - força a remoçaõ do diretório *dir* ***(Cuidado)***
 - **cp *arq1 arq2*** - copia *arq1* para *arq2*
 - **cp -r *dir1 dir2*** - copia *dir1* para *dir2*; cria*dir2 se não existir*
 - **mv *arq1 arq2*** - renomeia ou move *arq1* para *arq2*, se *arq2* é um diretório existente, move *arq1* dentro do diretório *arq2*
@@ -34,8 +34,16 @@ ___
 - **more** - cria uma barra de rolagem
 - **last** - movimenta a tela com bara de rolagem
 - **man** - manual para arquivos e comandos
-
-
+- **ls > *arquivo*** - envia uma saída de dados para a pasta *arquivo*, reescreve sobre o conteúdo anterior
+- **ls >> *arquivo*** - envia uma saída de dados para a pasta *arquivo*, acrescentando ao conteúdo anterior
+- **>file.txt** - cria uma arquivo vazio, semelhante ao **touch**
+- **&** - executa o software em background
+- **&&** - se a ação anterior for bem sucedida, executa a ação adicional
+    ex: ls aaa && >file a
+- **||** - somente executa o 2º comando se o 1º não tiver exito
+- **;** - executa o 2º comando se o 1º comando for bem sussedido ou não
+- **>** - mostra a entreda de um arquivo
+- **-** - envia sdtout para stdin do outro comando
 
 # Gerenciamento de Processos
 ___
@@ -76,6 +84,7 @@ ___
 
 - grep padrão *arquivos* - pesquisa pelo *padrão* nos arquivos
 - grep -r padrão diretório - pesquisa recursivamente pelo padrão no diretório
+- grep -rni - pessquisa em todas as pastas
 - comando | grep padrão - pesquisa pelo padrão na saída do comando
 - locate arquivo - pesquisa todas as instâncias de arquivo
 
