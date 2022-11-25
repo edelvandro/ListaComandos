@@ -124,5 +124,16 @@ ___
 
 
 # Instalação
+___
+
+Instalação a partir dos fontes:
+./configure
+make
+make install
+dpkg -i pkg.deb - instala um pacote (Debian)
+rpm - Uvh pkg.rpm - instala um pacote (RPM)
+
 
 # Atalhos
+___
+
