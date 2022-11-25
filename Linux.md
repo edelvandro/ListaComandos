@@ -143,6 +143,9 @@ ___
 - **Ctrl + w** - apaga uma palavra na linha atual
 - **Ctrl + u** - apaga a linha inteira
 - **Ctrl + r** - apresenta um comando recente
+- **Ctrl + a** - vai para o inicío da linha
+- **Ctrl + e** - vai para o final da linha
+- **Ctrl + u** corta do cursor para traz
 - **!!** - repete o ultimo comando usado
 - **exit** - abandona a sessão atual
 
