@@ -45,7 +45,6 @@
 - **-** - envia sdtout para stdin do outro comando
 
 # Gerenciamento de Processos
-___
 
 - **ps** - mostra seus processos  ativos
 - **top - m** - mostra todos os processos rodando
@@ -57,7 +56,6 @@ ___
 
 
 # Permissões de Arquivo
-___
 
 - **chmod octal *arquivo*** - altera as permissões do arquivo paraoctal, separadamente para usuário, grupo e mundo, adicionando:
     - 4 - read (r)
@@ -71,7 +69,6 @@ Exemplos:
 Para mais opções, **man chmod**
 
 # SSH
-___
 
 **ssh *user@host*** - conecta no *host* como user
 **ssh -p *porta* user@host** - conecta no *host* na *porta* como user
@@ -79,7 +76,6 @@ ___
 
 
 # Pesquisa
-___
 
 - grep padrão *arquivos* - pesquisa pelo *padrão* nos arquivos
 - grep -r padrão diretório - pesquisa recursivamente pelo padrão no diretório
@@ -88,7 +84,6 @@ ___
 - locate arquivo - pesquisa todas as instâncias de arquivo
 
 # Informações do Sistema
-___
 
 - **date** - mostra a data/hora atuais
 - **cal** - mostra calendário mensal
@@ -108,7 +103,6 @@ ___
 
 
 # Compressão
-___
 
 - **tar cf arq.tar *arquivos*** - cria um tar chamado arq.tar contendo *arquivos*
 - **tar xf arq.tar** - extraí os arquivos de arq.tar
@@ -121,7 +115,6 @@ ___
 
 
 # Rede
-___
 
 - **ping *host*** - pinga o *host* e mostra resultados
 - **whois *domínio*** - pega informações *whois* para o *domínio*
@@ -132,7 +125,6 @@ ___
 
 
 # Instalação
-___
 
 -  Instalação a partir dos fontes:
 -  **./configure**
@@ -143,7 +135,6 @@ ___
 
 
 # Atalhos
-___
 
 - **Ctrl + c** - finaliza o comando atual
 - **Ctrl + z** - interrompe o comando atual, mas permite recomeçar com **fg** (em foreground) ou **bg** (background)
