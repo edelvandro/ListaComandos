@@ -137,4 +137,12 @@ ___
 # Atalhos
 ___
 
+- **Ctrl + c** - finaliza o comando atual
+- **Ctrl + z** - interrompe o comando atual, mas permite recomeçar com **fg** (em foreground) ou **bg** (background)
+- **Ctrl + d** - encerra a sessão atual, similar a **exit**
+- **Ctrl + w** - apaga uma palavra na linha atual
+- **Ctrl + u** - apaga a linha inteira
+- **Ctrl + r** - apresenta um comando recente
+- **!!** - repete o ultimo comando usado
+- **exit** - abandona a sessão atual
 
