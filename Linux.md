@@ -64,7 +64,6 @@ Exemplos:
 Para mais opções, **man chmod**
 
 # SSH
-
 ___
 
 **ssh *user@host*** - conecta no *host* como user
@@ -81,7 +80,6 @@ ___
 - locate arquivo - pesquisa todas as instâncias de arquivo
 
 # Informações do Sistema
-
 ___
 
 - **date** - mostra a data/hora atuais
@@ -102,7 +100,6 @@ ___
 
 
 # Compressão
-
 ___
 
 - **tar cf arq.tar *arquivos*** - cria um tar chamado arq.tar contendo *arquivos*
@@ -116,6 +113,15 @@ ___
 
 
 # Rede
+___
+
+- **ping *host*** - pinga o *host* e mostra resultados
+- **whois *domínio*** - pega informações *whois* para o *domínio*
+- **dig *dominio*** - pega informações DNS do do *domínio*
+- **dig -x host** - DNS reverso
+- **wget *arquivo*** - baixa *arquivo*
+- **wgt -c *file*** - continua um download parado
+
 
 # Instalação
 
