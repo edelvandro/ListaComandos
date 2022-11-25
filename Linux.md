@@ -8,7 +8,7 @@ ___
 - **pwd** - mostra o diretório atual
 - **mkdir *dir*** - cria o diretório *dir*
 - **rm *arquivo*** - exclui *arquivo*
-- **rm*** - (Cuidado) exclui todos os diretórios
+- **rm*** - exclui todos os diretórios ***(Cuidado)***
 - **rm -r *dir*** - exclui o diretório *dir*
 - **rm -f *arquivo*** - força remoção de *arquivo*
 - **rm -rf *dir*** - força a remoçaõ do diretório *dir*
