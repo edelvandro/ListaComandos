@@ -1,5 +1,4 @@
 # COMANDOS DE ARQUIVOS
-___
 
 - **ls** - listagem de diretório
 - **ls -la**  - listagem formatada   de diretórios com arquivos ocultos
