@@ -62,6 +62,11 @@ Para mais opções, **man chmod**
 
 # SSH
 
+**ssh *user@host*** - conecta no *host* como user
+**ssh -p *porta* user@host** - conecta no *host* na *porta* como user
+**ssh-copy-id *user@host*** - adiciona sua chave ao host para *user* para permitir login com chave (passwordless)
+
+
 # Pesquisa
 
 # Informações do Sistema
