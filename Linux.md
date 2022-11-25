@@ -103,6 +103,18 @@ ___
 
 # Compressão
 
+___
+
+- **tar cf arq.tar *arquivos*** - cria um tar chamado arq.tar contendo *arquivos*
+- **tar xf arq.tar** - extraí os arquivos de arq.tar
+- **tar czf arq.tar.gz files** - cria um tar dom compressão Gzip
+- **tar xzf *file*.tar.gz** - extraí um tar usando Gzip
+- **tar cjf *file*.tar.bz2** - cria um tar usando compressão Bzip2
+- **tar xjf *file*.tar.bz2** - extraí um tar usando Bzip2
+- **gzip *arquivo*** - comprime *arquivo* e renomeia para *arquivo.gz*
+- **gzip -d *arquivo.gz*** - descompacta file.gz de volta para *arquivo*
+
+
 # Rede
 
 # Instalação
