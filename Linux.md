@@ -5,7 +5,7 @@
 - **ls -la**  - listagem formatada   de diretórios com arquivos ocultos
 - **cd *dir*** - muda diretório para *dir*
 - **cd** - muda para o *home*
-    - **/** - vai para a cabeça da árvore, inicia a nevegação desde o inicio da árvore
+    - **/** - vai para a cabeça da árvore, inicia a nevegação desde o início da árvore
     - **~** - leva para a pasta inicial do usuário em que estamos
     - **-** - volta para a pasta anterior em que voce estava
     - **.** - nos deixa no mesmo lugar
