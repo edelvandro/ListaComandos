@@ -1,9 +1,16 @@
 # COMANDOS DE ARQUIVOS
 
+- **clear** - comando para limpar a tela
 - **ls** - listagem de diretório
 - **ls -la**  - listagem formatada   de diretórios com arquivos ocultos
 - **cd *dir*** - muda diretório para *dir*
 - **cd** - muda para o *home*
+    - **/** - vai para a cabeça da árvore, inicia a nevegação desde o inicio da árvore
+    - **~** - leva para a pasta inicial do usuário em que estamos
+    - **-** - volta para a pasta anterior em que voce estava
+    - **.** - nos deixa no mesmo lugar
+    - **..** -   mmove uma pasta para tráz
+
 - **pwd** - mostra o diretório atual
 - **mkdir *dir*** - cria o diretório *dir*
 - **rm *arquivo*** - exclui *arquivo*
@@ -144,7 +151,8 @@ Para mais opções, **man chmod**
 - **Ctrl + r** - apresenta um comando recente
 - **Ctrl + a** - vai para o inicío da linha
 - **Ctrl + e** - vai para o final da linha
-- **Ctrl + u** corta do cursor para traz
+- **Ctrl + u** - corta do cursor para traz
+- **Ctrl + l** - limpa a tela
 - **!!** - repete o ultimo comando usado
 - **exit** - abandona a sessão atual
 
